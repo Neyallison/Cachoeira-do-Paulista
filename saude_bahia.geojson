@@ -1,0 +1,50 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 362227,
+        "admin_level": 8,
+        "boundary": "administrative",
+        "IBGE:GEOCODIGO": "2929800",
+        "name": "Saúde",
+        "place": "municipality",
+        "population": 10478,
+        "population:date": "2023-08-31",
+        "source": "IBGE",
+        "source:population": "IBGE, DOU de 31/08/2023",
+        "type": "boundary",
+        "wikidata": "Q2247752",
+        "wikipedia": "pt:Saúde (Bahia)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.0,
+              -10.0
+            ],
+            [
+              -40.1,
+              -10.0
+            ],
+            [
+              -40.1,
+              -10.1
+            ],
+            [
+              -40.0,
+              -10.1
+            ],
+            [
+              -40.0,
+              -10.0
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
