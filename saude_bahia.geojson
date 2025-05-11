@@ -1,115 +1,50 @@
 {
-   "osm": {
-      "relation": {
-         "member": [
-            {
-               "_type": "way",
-               "_ref": "46190619",
-               "_role": "outer"
-            },
-            {
-               "_type": "way",
-               "_ref": "46190643",
-               "_role": "outer"
-            },
-            {
-               "_type": "way",
-               "_ref": "46190642",
-               "_role": "outer"
-            },
-            {
-               "_type": "way",
-               "_ref": "394401904",
-               "_role": "outer"
-            },
-            {
-               "_type": "way",
-               "_ref": "46190634",
-               "_role": "outer"
-            },
-            {
-               "_type": "way",
-               "_ref": "394499153",
-               "_role": "outer"
-            },
-            {
-               "_type": "way",
-               "_ref": "394499154",
-               "_role": "outer"
-            },
-            {
-               "_type": "way",
-               "_ref": "46190644",
-               "_role": "outer"
-            },
-            {
-               "_type": "node",
-               "_ref": "415521734",
-               "_role": "admin_centre"
-            }
-         ],
-         "tag": [
-            {
-               "_k": "admin_level",
-               "_v": "8"
-            },
-            {
-               "_k": "boundary",
-               "_v": "administrative"
-            },
-            {
-               "_k": "IBGE:GEOCODIGO",
-               "_v": "2929800"
-            },
-            {
-               "_k": "name",
-               "_v": "Saúde"
-            },
-            {
-               "_k": "place",
-               "_v": "municipality"
-            },
-            {
-               "_k": "population",
-               "_v": "10478"
-            },
-            {
-               "_k": "population:date",
-               "_v": "2023-08-31"
-            },
-            {
-               "_k": "source",
-               "_v": "IBGE"
-            },
-            {
-               "_k": "source:population",
-               "_v": "IBGE, DOU de 31/08/2023"
-            },
-            {
-               "_k": "type",
-               "_v": "boundary"
-            },
-            {
-               "_k": "wikidata",
-               "_v": "Q2247752"
-            },
-            {
-               "_k": "wikipedia",
-               "_v": "pt:Saúde (Bahia)"
-            }
-         ],
-         "_id": "362227",
-         "_visible": "true",
-         "_version": "12",
-         "_changeset": "140730778",
-         "_timestamp": "2023-09-02T18:07:42Z",
-         "_user": "Fidelis Assis",
-         "_uid": "1675654"
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 362227,
+        "admin_level": 8,
+        "boundary": "administrative",
+        "IBGE:GEOCODIGO": "2929800",
+        "name": "Saúde",
+        "place": "municipality",
+        "population": 10478,
+        "population:date": "2023-08-31",
+        "source": "IBGE",
+        "source:population": "IBGE, DOU de 31/08/2023",
+        "type": "boundary",
+        "wikidata": "Q2247752",
+        "wikipedia": "pt:Saúde (Bahia)"
       },
-      "_version": "0.6",
-      "_generator": "openstreetmap-cgimap 2.0.1 (2270275 spike-07.openstreetmap.org)",
-      "_copyright": "OpenStreetMap and contributors",
-      "_attribution": "http://www.openstreetmap.org/copyright",
-      "_license": "http://opendatacommons.org/licenses/odbl/1-0/"
-   }
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.0,
+              -10.0
+            ],
+            [
+              -40.1,
+              -10.0
+            ],
+            [
+              -40.1,
+              -10.1
+            ],
+            [
+              -40.0,
+              -10.1
+            ],
+            [
+              -40.0,
+              -10.0
+            ]
+          ]
+        ]
+      }
+    }
+  ]
 }
